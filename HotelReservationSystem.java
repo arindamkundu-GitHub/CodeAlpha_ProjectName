@@ -13,8 +13,6 @@ class Room {
         this.price = price;
         this.isAvailable = true;
     }
-
-    @Override
     public String toString() {
         return "Room " + roomId + " - " + category + " - $" + price + "/night - " + (isAvailable ? "Available" : "Booked");
     }
